@@ -1,0 +1,110 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    background-color: #2f2f2f;
+    color: #fff;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.scribble{
+    font-family: 'Mansalva', sans-serif;
+}
+
+.banner{
+    background: url(../images/images/frogs.jpg) !important;
+    background-color: #0aa;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: none;  
+}
+
+button:hover{
+    text-decoration: none;
+}
+
+.a1, .a1:hover, .a1:visited {
+    color:#fff;
+}
+
+nav{
+    border-radius: 0px !important;
+    border: none !important;
+}
+
+nav .dropdown-menu li a{
+    color: #2f2f2f !important;
+
+}
+
+nav li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #0aa !important;
+    background-color: #fff !important;
+}
+
+
+.bg-1{
+    background-color: #000; /* Black Gray */
+    color: #fff;
+}
+
+.bg-2{
+    background-color: #0aa;
+    color:#fff !important;
+}
+
+.bg-3{
+    background-color: #fff;
+    color: #2f2f2f;
+}
+
+.bg-3 a{
+    color:#2f2f2f;
+}
+
+.container{
+    padding-bottom: 30px;
+}
+
+.padding{
+    padding-top: 30px;
+}
+
+.post{
+    max-width: 800px;
+    padding:30px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+.media{
+    padding-bottom: 20px;
+}
+
+.img-responsive{
+    width:100%;
+    margin:auto;
+}
+
+.fh{
+    min-height: 100%;
+    margin-bottom: -70px;
+    /*height 70px to match #footer - if #footer height changed, change .fh*/
+}
+
+.push{
+    height:70px;
+}
+
+footer {
+    /*height 70px (from .padding) to match .fh - if changed, change .fh*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
