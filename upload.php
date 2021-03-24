@@ -6,12 +6,12 @@
         $title = mysqli_real_escape_string($conn, $_POST['title']);
         $image = $_FILES['image']['name'];
         $description = mysqli_real_escape_string($conn, $_POST['description']);
-        $username = mysqli_real_escape_string($conn, $_POST['username']);
+        $source = mysqli_real_escape_string($conn, $_POST['source']);
 
         // image file directory
         $target = "images/".basename($image);
 
-        $sql = "INSERT INTO posts (title, username, description, image) VALUES ('$title','$username','$description', '$image')"; 
+        $sql = "INSERT INTO posts (title, source, description, image) VALUES ('$title','$source','$description', '$image')"; 
         // execute query
         mysqli_query($conn, $sql);
 
@@ -46,10 +46,10 @@
                         <input type="text" id="title" name="title" class="form-control">
                     </div>
 
-                    <!--username (use for image credit/source)-->
+                    <!--source (use for image credit/source)-->
                     <div class="form-group">
-                        <label for="username">Username</label>
-                        <input type="text" id="username" name="username" class="form-control">
+                        <label for="source">source</label>
+                        <input type="text" id="source" name="source" class="form-control">
                     </div>
 
                     <!--Post Image-->

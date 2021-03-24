@@ -3,7 +3,7 @@
                 <div class="container post bg-3">                
                     <div class="container-fluid">
                         <h1 class="scribble"><a href="#"><?php echo $row["title"]?></a></h1>
-                        <p><?php echo $row["username"]?></p>
+                        <p><?php echo $row["source"]?></p>
                     </div>
                     
                     <div class="container-fluid">
