@@ -7,13 +7,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
             </button> 
-            <a class="navbar-brand scribble" href="index.php">Pictures of Frogs</a>
+            <a class="navbar-brand scribble" href="index.php">Adopt a frog</a>
         </div>
 
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li><a href="index.php">Home</a></li>
-                <li><a href="upload.php">Upload</a></li>
+                <li><a href="upload.php">Adopt</a></li>
             </ul>
     
             <ul class="nav navbar-nav navbar-right">

@@ -4,15 +4,16 @@
     <div class="row">
         <div class="col-sm-4">
             <p>Website Created by</p>
-            <p>[Cloud Team Cool Name]</p>
+            <p>Cloud Team Cool-Name</p>
         </div>
         <div class="col-sm-4">
-            <h4 class="scribble">[Names and IDs]</h4>
-            <p class="scribble">2021</p>
+            <p>Natasja Hopkin 18121344
+            <br>Dragos-Andrei Ilies 17123790
+            <br>Sifat Jahir 14113804</p>
+            <p class="scribble">COPYRIGHT 2021</p>
         </div>
         <div class="col-sm-4">
-            <p>for CMP6210</p>
-            <p>Cloud Computing Application</p>
+            <p>for CMP6210 Cloud Computing Application</p>
             <p>Birmingham City University</p>
         </div>
     </div>

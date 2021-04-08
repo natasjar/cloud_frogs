@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Frog Pics</title>
+        <title>Adopt a frog</title>
         <?php include 'scripts/head.php'; ?>
     </head>
 
@@ -21,6 +21,8 @@
                 <p class="scribble">Post and search pictures of beautiful frogs. Toads also welcome</p> 
             </div>
 
+            <!--bucket image!!! -->
+                <img class="img-fluid" src="https://dr9rtv1x0l5m8.cloudfront.net/fwogBop.gif" alt="" height="100" width="100">            
         
             <div class="padding"></div> <!-- div of just padding -->
 
