@@ -24,7 +24,7 @@
             <!--bucket image!!! -->
                 <img class="img-fluid" src="images/fwogBop.gif" alt="" height="100" width="100">            
         
-            <div class="padding"></div> <!-- div of just padding -->
+            <div class="padding"><p><?php echo $msg?></p></div> <!-- div of just padding -->
 
             <div class="container text-center scribble">
                 <h1>All Posts</h1>
