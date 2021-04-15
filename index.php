@@ -22,7 +22,7 @@
             </div>
 
             <!--bucket image!!! -->
-                <img class="img-fluid" src="https://dr9rtv1x0l5m8.cloudfront.net/fwogBop.gif" alt="" height="100" width="100">            
+                <img class="img-fluid" src="images/fwogBop.gif" alt="" height="100" width="100">            
         
             <div class="padding"></div> <!-- div of just padding -->
 

@@ -7,9 +7,9 @@
         $title = mysqli_real_escape_string($conn, $_POST['title']);
         #$image = $_FILES['image']['name'];
         $description = mysqli_real_escape_string($conn, $_POST['description']);
-        $source = mysqli_real_escape_string($conn, $_POST['source']);
+        $owner = mysqli_real_escape_string($conn, $_POST['owner']);
 
-        $sql = "INSERT INTO posts (title, source, description) VALUES ('$title','$source','$description')"; 
+        $sql = "INSERT INTO posts (title, owner, description) VALUES ('$title','$owner','$description')"; 
         // execute query
         mysqli_query($conn, $sql);
 
@@ -41,7 +41,7 @@
         <?php include 'scripts/nav.php'; ?> <!-- the nav bar -->
 
             <div class="container text-center">
-                <h1 class="scribble">Submit</h1>
+                <h1 class="scribble">Adoption</h1>
                 <h3><a href="index.php"><?php echo $msg ?></a></h3> <!--starts as empty-->
             </div>
 
@@ -53,10 +53,10 @@
                         <input type="text" id="title" name="title" class="form-control">
                     </div>
 
-                    <!--source (use for image credit/source)-->
+                    <!--owner (use for image credit/owner)-->
                     <div class="form-group">
-                        <label for="source">Adopted by</label>
-                        <input type="text" id="source" name="source" class="form-control">
+                        <label for="owner">Your name</label>
+                        <input type="text" id="owner" name="owner" class="form-control">
                     </div>
 
                     <!--Post description-->
@@ -66,7 +66,7 @@
                     </div>
                     
                     <div>
-                        <button type="submit" name="upload" class="btn btn-primary">POST</button>
+                        <button type="submit" name="upload" class="btn btn-primary">ADOPT</button>
                     </div>
                 </form>
             </div>

@@ -2,7 +2,7 @@
     //connection info
     $DATABASE_HOST = 'localhost'; 
     $DATABASE_USER = 'root';
-    $DATABASE_PASS = 'password';
+    $DATABASE_PASS = ''; //ADD "password" BACK IN!!!!!!
 
     $DATABASE_NAME = 'cloud'; 
     $msg = '';
